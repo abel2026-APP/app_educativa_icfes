@@ -69,4 +69,88 @@
     ],
     "correcta": 1
   }
+
+  {
+    "texto": "En el Movimiento Uniformemente Acelerado (MUA), ¿qué magnitud permanece constante?",
+    "opciones": [
+      "La velocidad",
+      "La aceleración",
+      "La posición",
+      "El desplazamiento"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un cuerpo se mueve con aceleración constante. ¿Qué tipo de movimiento describe esta situación?",
+    "opciones": [
+      "Movimiento Rectilíneo Uniforme",
+      "Movimiento Circular",
+      "Movimiento Uniformemente Acelerado",
+      "Movimiento Oscilatorio"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuál es la ecuación correcta de la velocidad en el MUA?",
+    "opciones": [
+      "v = d / t",
+      "v = v₀ + a·t",
+      "v = a / t",
+      "v = v₀ · t"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Si un objeto parte del reposo y tiene aceleración constante, ¿cuál es su velocidad después de 4 s si a = 2 m/s²?",
+    "opciones": [
+      "2 m/s",
+      "4 m/s",
+      "6 m/s",
+      "8 m/s"
+    ],
+    "correcta": 3
+  },
+  {
+    "texto": "¿Cuál es la ecuación del desplazamiento en el MUA?",
+    "opciones": [
+      "x = v·t",
+      "x = v₀·t + ½·a·t²",
+      "x = a·t",
+      "x = v₀ + a"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un automóvil aumenta su velocidad de forma constante. ¿Cómo es la gráfica velocidad vs tiempo?",
+    "opciones": [
+      "Una línea horizontal",
+      "Una línea recta inclinada",
+      "Una curva",
+      "Una parábola"
+    ],
+    "correcta": 1,
+    "imagen": "imagenes/grafica_v_t_mua.png"
+  },
+  {
+    "texto": "En una gráfica posición vs tiempo para un MUA, la forma de la gráfica es:",
+    "opciones": [
+      "Una línea recta",
+      "Una línea horizontal",
+      "Una parábola",
+      "Un círculo"
+    ],
+    "correcta": 2,
+    "imagen": "imagenes/grafica_x_t_mua.png"
+  },
+  {
+    "texto": "Si la aceleración es negativa en un MUA, ¿qué ocurre con la velocidad?",
+    "opciones": [
+      "Permanece constante",
+      "Aumenta",
+      "Disminuye",
+      "Se hace cero inmediatamente"
+    ],
+    "correcta": 2
+  }
+
 ]
