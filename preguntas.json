@@ -1,0 +1,72 @@
+[
+  {
+    "texto": "Un avión vuela a una velocidad de 900 km/h. Si tarda 2 horas y media en viajar desde Canarias hasta la península, ¿qué distancia recorre?",
+    "opciones": [
+      "1800 km",
+      "2000 km",
+      "2250 km",
+      "2500 km"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "El récord del mundo de 100 metros es de 9 segundos. ¿Cuál es la velocidad media del atleta?",
+    "opciones": [
+      "9.0 m/s",
+      "10.5 m/s",
+      "11.1 m/s",
+      "12.0 m/s"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un coche se mueve durante 30 minutos a 40 km/h, luego 60 minutos a 60 km/h y finalmente 15 minutos a 20 km/h. ¿Cuál es la distancia total recorrida?",
+    "opciones": [
+      "80 km",
+      "90 km",
+      "95 km",
+      "100 km"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un corredor se desplaza con una velocidad constante de 5 m/s durante un cuarto de hora. ¿Qué distancia recorre?",
+    "opciones": [
+      "3750 m",
+      "4000 m",
+      "4500 m",
+      "5000 m"
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "¿Cuánto tiempo tarda en llegar a la Tierra la luz del Sol si viaja a 3 x 10^⁵ km/s y la distancia Sol a laTierra es 1.5 x 10^⁸ km?",
+    "opciones": [
+      "5 minutos",
+      "8.3 minutos",
+      "10 minutos",
+      "12 minutos"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Una persona camina 20 km en 4 horas. ¿Cuál es su velocidad media?",
+    "opciones": [
+      "4 km/h",
+      "5 km/h",
+      "6 km/h",
+      "8 km/h"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un atleta recorre 100 metros en 11 segundos. ¿Cuál es su velocidad media?",
+    "opciones": [
+      "8.1 m/s",
+      "9.1 m/s",
+      "10.1 m/s",
+      "11.1 m/s"
+    ],
+    "correcta": 1
+  }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>App Educativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contenedor" id="registro">
+    <h1>Registro del Estudiante</h1>
+
+    <input type="text" id="nombre" placeholder="Nombre del estudiante">
+    <input type="text" id="grado" placeholder="Grado (ej: 10°)">
+
+    <button onclick="iniciarQuiz()">Iniciar Quiz</button>
+</div>
+
+
+    <div class="contenedor" id="quiz" style="display:none;">
+
+        <h1>Quiz de Física Maria Inmaculada</h1>
+
+        <p id="contador"></p>
+        <p id="pregunta"></p>
+        <img id="grafico" src="" alt="Gráfico de la pregunta"
+        style="max-width:100%; display:none;">
+
+        <p id="tiempo">⏱️ Tiempo: 10 s</p>
+
+
+
+        <div class="opciones">
+            <button onclick="responder(0)"></button>
+            <button onclick="responder(1)"></button>
+            <button onclick="responder(2)"></button>
+            <button onclick="responder(3)"></button>
+        </div>
+
+        <p id="resultado"></p>
+        <button onclick="reiniciar()">Reiniciar Quiz</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
