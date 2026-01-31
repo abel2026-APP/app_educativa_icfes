@@ -70,6 +70,7 @@
     "correcta": 1
   },
 
+  
   {
     "texto": "En el Movimiento Uniformemente Acelerado (MUA), ¿qué magnitud permanece constante?",
     "opciones": [
@@ -80,6 +81,7 @@
     ],
     "correcta": 1
   },
+
   {
     "texto": "Un cuerpo se mueve con aceleración constante. ¿Qué tipo de movimiento describe esta situación?",
     "opciones": [
@@ -128,7 +130,8 @@
       "Una curva",
       "Una parábola"
     ],
-    "correcta": 1,
+    "correcta": 1
+   
   },
   {
     "texto": "En una gráfica posición vs tiempo para un MUA, la forma de la gráfica es:",
@@ -138,7 +141,8 @@
       "Una parábola",
       "Un círculo"
     ],
-    "correcta": 2,
+    "correcta": 2
+    
   },
   {
     "texto": "Si la aceleración es negativa en un MUA, ¿qué ocurre con la velocidad?",
@@ -149,10 +153,7 @@
       "Se hace cero inmediatamente"
     ],
     "correcta": 2
-  },
+  }
+
 
 ]
-
-
-
-
