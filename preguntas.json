@@ -129,7 +129,6 @@
       "Una parábola"
     ],
     "correcta": 1,
-    "imagen": "imagenes/grafica_v_t_mua.png"
   },
   {
     "texto": "En una gráfica posición vs tiempo para un MUA, la forma de la gráfica es:",
@@ -140,7 +139,6 @@
       "Un círculo"
     ],
     "correcta": 2,
-    "imagen": "imagenes/grafica_x_t_mua.png"
   },
   {
     "texto": "Si la aceleración es negativa en un MUA, ¿qué ocurre con la velocidad?",
@@ -154,3 +152,4 @@
   }
 
 ]
+
