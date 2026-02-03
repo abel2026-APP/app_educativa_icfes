@@ -122,17 +122,31 @@ btn.style.display = "none";
   btn.style.cursor = "not-allowed";
 }
 
-<div id="menuTemas">
-  <h2>Selecciona el tema</h2>
+// ===== CONEXIÓN DE BOTONES CON JSON =====
+document.querySelectorAll(".btnTema").forEach(btn => {
+  btn.addEventListener("click", async () => {
 
-  <button class="btnTema" data-json="mua.json">
-    Movimiento Uniformemente Acelerado (MUA)
-  </button>
+    const archivo = btn.getAttribute("data-json");
 
-  <button class="btnTema" data-json="trabajo_energia.json">
-    Trabajo y Energía
-  </button>
-</div>
+    const confirmar = confirm("¿Deseas iniciar esta prueba?");
+    if (!confirmar) return;
+
+    try {
+      const respuesta = await fetch(archivo);
+      preguntas = await respuesta.json();
+
+      indice = 0;
+      puntaje = 0;
+
+      mostrarPregunta(); // ⚠️ usa el nombre REAL de tu función
+    } catch (error) {
+      alert("Error al cargar el archivo de preguntas");
+      console.error(error);
+    }
+
+  });
+});
+
 
 
 function iniciarTemporizador() {
@@ -162,5 +176,6 @@ function pasarSiguientePregunta() {
     mostrarResultadoFinal();
   }
 }
+
 
 
