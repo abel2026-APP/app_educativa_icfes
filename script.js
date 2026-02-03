@@ -111,6 +111,20 @@ function mostrarResultadoFinal() {
     resultadoEl.style.color = "#1a73e8";
     resultadoEl.innerHTML += `<br><em>Intento finalizado. Consulte al docente.</em>`;
 
+
+
+
+    
+//  // 🔒 DESHABILITAR BOTÓN REINICIAR (AQUÍ VA)
+  const btn = document.getElementById("btnReiniciar");
+btn.disabled = true;
+btn.style.display = "none";
+
+  btn.disabled = true;
+  btn.style.opacity = "0.5";
+  btn.style.cursor = "not-allowed";
+}
+
 // ===== CONEXIÓN DE BOTONES CON JSON =====
 document.querySelectorAll(".btnTema").forEach(btn => {
   btn.addEventListener("click", async () => {
@@ -135,23 +149,6 @@ document.querySelectorAll(".btnTema").forEach(btn => {
 
   });
 });
-
-
-
-
-
-    
-//  // 🔒 DESHABILITAR BOTÓN REINICIAR (AQUÍ VA)
-  const btn = document.getElementById("btnReiniciar");
-btn.disabled = true;
-btn.style.display = "none";
-
-  btn.disabled = true;
-  btn.style.opacity = "0.5";
-  btn.style.cursor = "not-allowed";
-}
-
-
 
 function iniciarTemporizador() {
   clearInterval(temporizador);
@@ -180,6 +177,7 @@ function pasarSiguientePregunta() {
     mostrarResultadoFinal();
   }
 }
+
 
 
 
