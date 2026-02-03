@@ -1,0 +1,102 @@
+[
+  {
+    "texto": "Un estudiante empuja una caja con una fuerza horizontal de 50 N a lo largo de 4 m sobre un piso liso. ¿Cuál es el trabajo realizado por la fuerza aplicada?",
+    "opciones": [
+      "0 J",
+      "50 J",
+      "200 J",
+      "400 J"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Un obrero arrastra un carrito aplicando una fuerza de 40 N formando un ángulo de 0° con la horizontal durante 5 m. ¿Cuál es el trabajo realizado?",
+    "opciones": [
+      "40 J",
+      "200 J",
+      "5 J",
+      "0 J"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Una persona hala una maleta con una fuerza de 60 N formando un ángulo de 30° con la horizontal y la desplaza 10 m. ¿Cuál es el trabajo aproximado realizado por la fuerza aplicada? (cos 30° ≈ 0.87)",
+    "opciones": [
+      "600 J",
+      "520 J",
+      "870 J",
+      "300 J"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un estudiante tira de un trineo con una fuerza de 100 N formando un ángulo agudo con el suelo. ¿Qué componente de la fuerza realiza trabajo sobre el trineo?",
+    "opciones": [
+      "La componente vertical",
+      "La componente horizontal",
+      "El peso del trineo",
+      "La normal del suelo"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un automóvil de masa 1000 kg se mueve a una velocidad de 20 m/s. ¿Cuál es su energía cinética?",
+    "opciones": [
+      "10 000 J",
+      "20 000 J",
+      "200 000 J",
+      "400 000 J"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Una pelota de 2 kg se mueve con una rapidez de 5 m/s. ¿Cuál es su energía cinética?",
+    "opciones": [
+      "10 J",
+      "25 J",
+      "50 J",
+      "125 J"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un libro de 3 kg se coloca sobre una repisa a 2 m del suelo. ¿Cuál es su energía potencial gravitacional? (g = 10 m/s²)",
+    "opciones": [
+      "6 J",
+      "30 J",
+      "60 J",
+      "120 J"
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Una maceta de 5 kg se encuentra a 4 m de altura respecto al suelo. ¿Cuál es su energía potencial gravitacional? (g = 10 m/s²)",
+    "opciones": [
+      "50 J",
+      "100 J",
+      "150 J",
+      "200 J"
+    ],
+    "correcta": 3
+  },
+  {
+    "texto": "Un resorte tiene una constante elástica de 500 N/m y se comprime 0.2 m. ¿Cuál es la energía potencial elástica almacenada?",
+    "opciones": [
+      "5 J",
+      "10 J",
+      "20 J",
+      "50 J"
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un resorte se estira 0.1 m y almacena una energía potencial elástica de 2 J. ¿Cuál es la constante elástica del resorte?",
+    "opciones": [
+      "200 N/m",
+      "300 N/m",
+      "400 N/m",
+      "500 N/m"
+    ],
+    "correcta": 3
+  }
+]
