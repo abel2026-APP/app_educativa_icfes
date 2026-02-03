@@ -122,6 +122,19 @@ btn.style.display = "none";
   btn.style.cursor = "not-allowed";
 }
 
+<div id="menuTemas">
+  <h2>Selecciona el tema</h2>
+
+  <button class="btnTema" data-json="mua.json">
+    Movimiento Uniformemente Acelerado (MUA)
+  </button>
+
+  <button class="btnTema" data-json="trabajo_energia.json">
+    Trabajo y Energía
+  </button>
+</div>
+
+
 function iniciarTemporizador() {
   clearInterval(temporizador);
   tiempoRestante = tiempo;
@@ -149,4 +162,5 @@ function pasarSiguientePregunta() {
     mostrarResultadoFinal();
   }
 }
+
 
