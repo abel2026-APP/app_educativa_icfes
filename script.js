@@ -25,7 +25,7 @@ let preguntas = [];   // ahora se llenará desde preguntas.json
 let indice = 0;
 let puntaje = 0;
 
-let tiempo =1800;          // segundos por pregunta
+let tiempo =180;          // segundos por pregunta
 let tiempoRestante = 10;
 let temporizador = null;
 
@@ -174,6 +174,7 @@ function pasarSiguientePregunta() {
     mostrarResultadoFinal();
   }
 }
+
 
 
 
