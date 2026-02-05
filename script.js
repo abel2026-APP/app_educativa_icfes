@@ -26,7 +26,7 @@ let indice = 0;
 let puntaje = 0;
 
 let tiempo =180;          // segundos por pregunta
-let tiempoRestante = 10;
+let tiempoRestante = 180;
 let temporizador = null;
 
 
@@ -174,6 +174,7 @@ function pasarSiguientePregunta() {
     mostrarResultadoFinal();
   }
 }
+
 
 
 
