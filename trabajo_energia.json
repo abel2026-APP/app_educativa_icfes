@@ -10,12 +10,12 @@
     "correcta": 2
   },
   {
-    "texto": "Un obrero arrastra un carrito aplicando una fuerza de 40 N formando un ángulo de 0° con la horizontal durante 5 m. ¿Cuál es el trabajo realizado?",
+    "texto": "Un obrero arrastra un carrito aplicando una fuerza de 40 N formando un ángulo de 0° con la horizontal, ¿Cual sera la distancia recorrida, si el trabajo realizado fue de  de 200 j?",
     "opciones": [
-      "40 J",
-      "200 J",
-      "5 J",
-      "0 J"
+      "  20 m ",
+      " 5 m",
+      " 8000 m J",
+      "  0 m "
     ],
     "correcta": 1
   },
@@ -80,7 +80,7 @@
     "correcta": 3
   },
   {
-    "texto": "Un resorte tiene una constante elástica de 500 N/m , Cuanto se comprime,. si el resorte genera una energia potencial elastica de 5 j ?",
+    "texto": "Un resorte tiene una constante elástica de 500 N/m , ¿Cuanto se comprime, si el resorte genera una energia potencial elastica de 5 j ?",
     "opciones": [
       "0.2 m",
       "4 m",
@@ -100,4 +100,5 @@
     "correcta": 3
   }
 ]
+
 
