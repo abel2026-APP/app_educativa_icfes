@@ -40,12 +40,12 @@
     "correcta": 1
   },
   {
-    "texto": "Un automóvil de masa 1000 kg se mueve a una velocidad de 20 m/s. ¿Cuál es su energía cinética?",
+    "texto": "Un automóvil de masa 1000 kg en movimiento genera una energia Cinetica de 200 000 J ¿ Cual sera su Velocidad?",
     "opciones": [
-      "10 000 J",
-      "20 000 J",
-      "200 000 J",
-      "400 000 J"
+      " 400 m/s ",
+      " 2 m /s ",
+      " 20 m/s ",
+      " 10 m/s "
     ],
     "correcta": 2
   },
@@ -100,5 +100,6 @@
     "correcta": 3
   }
 ]
+
 
 
