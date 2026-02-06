@@ -80,14 +80,14 @@
     "correcta": 3
   },
   {
-    "texto": "Un resorte tiene una constante elástica de 500 N/m y se comprime 0.2 m. ¿Cuál es la energía potencial elástica almacenada?",
+    "texto": "Un resorte tiene una constante elástica de 500 N/m , Cuanto se comprime,. si el resorte genera una energia potencial elastica de 5 j ?",
     "opciones": [
-      "5 J",
-      "10 J",
-      "20 J",
-      "50 J"
+      "0.2 m",
+      "4 m",
+      "0.02 m ",
+      " 2 m J"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "texto": "Un resorte se estira 0.1 m y almacena una energía potencial elástica de 2 J. ¿Cuál es la constante elástica del resorte?",
@@ -100,3 +100,4 @@
     "correcta": 3
   }
 ]
+
