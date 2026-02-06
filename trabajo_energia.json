@@ -50,7 +50,7 @@
     "correcta": 2
   },
   {
-    "texto": "Una pelota de 2 kg se mueve con una rapidez de 5 m/s. ¿Cuál es su energía cinética?",
+    "texto": "Una pelota de 2 kg se mueve con una rapidez de 500 cm/s. ¿Cuál es su energía cinética?",
     "opciones": [
       "10 J",
       "25 J",
@@ -60,7 +60,7 @@
     "correcta": 1
   },
   {
-    "texto": "Un libro de 3 kg se coloca sobre una repisa a 2 m del suelo. ¿Cuál es su energía potencial gravitacional? (g = 10 m/s²)",
+    "texto": "Un libro de 3 kg se coloca sobre una repisa a 200 cm del suelo. ¿Cuál es su energía potencial gravitacional? (g = 10 m/s²)",
     "opciones": [
       "6 J",
       "30 J",
@@ -70,7 +70,7 @@
     "correcta": 2
   },
   {
-    "texto": "Una maceta de 5 kg se encuentra a 4 m de altura respecto al suelo. ¿Cuál es su energía potencial gravitacional? (g = 10 m/s²)",
+    "texto": "Una maceta o matero de 5000 g se encuentra a 4 m de altura respecto al suelo. ¿Cuál es su energía potencial gravitacional? (g = 10 m/s²)",
     "opciones": [
       "50 J",
       "100 J",
@@ -100,6 +100,7 @@
     "correcta": 3
   }
 ]
+
 
 
 
