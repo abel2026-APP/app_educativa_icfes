@@ -34,10 +34,7 @@ function iniciarQuiz() {
   mostrarPregunta();
 }
 
-
-
 let preguntas = [];   // ahora se llenará desde preguntas.json
-
 
 let indice = 0;
 let puntaje = 0;
@@ -158,8 +155,6 @@ function reiniciar() {
 
   mostrarPregunta();
 }
-
-
 
 function mostrarResultadoFinal() {
 
@@ -321,6 +316,7 @@ function mostrarHistorial() {
 function exportarResultados() {
   window.print();
 }
+
 
 
 
