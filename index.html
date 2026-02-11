@@ -19,47 +19,67 @@
 
     <div class="contenedor" id="quiz" style="display:none;">
 
-        <h1> Prueba ICFES de Física Maria Inmaculada</h1>
-         </h1> Docente Abel Gonzalez Jaurigue</h1>
-        <p id="contador"></p>
-        <p id="pregunta"></p>
-        <img id="grafico" src="" alt="Gráfico de la pregunta"
-        style="max-width:100%; display:none;">
+  <h1>Quiz de Física Maria Inmaculada</h1>
 
-        <p id="tiempo">⏱️ Tiempo: 10 s</p>
+  <!-- 🟡 MENÚ DE TEMAS -->
+  <div id="menuTemas">
+    <h2>Selecciona el tema</h2>
 
+    <button class="btnTema" data-json="preguntas.json">
+      Movimiento Uniformemente Acelerado (MUA)
+    </button>
 
+    <button class="btnTema" data-json="trabajo_energia.json">
+      Trabajo y Energía
+    </button>
+  </div>
 
-        <div class="opciones">
-            <button onclick="responder(0)"></button>
-            <button onclick="responder(1)"></button>
-            <button onclick="responder(2)"></button>
-            <button onclick="responder(3)"></button>
-        </div>
+  <!-- 🔴 ZONA DE PREGUNTAS (OCULTA AL INICIO) -->
+  <div id="zonaPreguntas" style="display:none;">
 
-        <p id="resultado"></p>
-        <button onclick="reiniciar()">Reiniciar Quiz</button>
-        
-<div id="menuTemas">
-  <h2>Selecciona el tema</h2>
+    <h2 id="tiempoTotal" style="font-size:32px; color:#d32f2f; text-align:center;">
+  ⏰ Tiempo total: 00:00
+</h2>
 
-  <button class="btnTema" data-json="mua.json">
-    Movimiento Uniformemente Acelerado (MUA)
-  </button>
+    <p id="contador"></p>
+    <p id="pregunta"></p>
 
-  <button class="btnTema" data-json="trabajo_energia.json">
-    Trabajo y Energía
-  </button>
+    <img id="grafico" src="" alt="Gráfico de la pregunta"
+         style="max-width:100%; display:none;">
+
+    <p id="tiempo">⏱️ Tiempo: 10 s</p>
+
+    <div class="opciones">
+      <button onclick="responder(0)"></button>
+      <button onclick="responder(1)"></button>
+      <button onclick="responder(2)"></button>
+      <button onclick="responder(3)"></button>
+    </div>
+
+    <p id="resultado"></p>
+
+    <button id="btnReiniciar" onclick="reiniciar()">Reiniciar Quiz</button>
+
+  </div>
 </div>
-   
+
+
+
+<div id="historial" style="display:none; margin-top:20px;">
+  <h3>📊 Historial de intentos</h3>
+  <ul id="listaHistorial"></ul>
+</div>
+
+<button id="btnHistorial" style="display:none;">
+  Ver historial
+</button>
+
+<button id="btnExportar" style="display:none;">
+  Exportar resultados (PDF)
+</button>
+
+
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
