@@ -160,6 +160,7 @@ function mostrarResultadoFinal() {
 
 // ⏹️ detener tiempo total
   clearInterval(temporizadorTotal);
+  guardarResultado();  // 👈 ESTA LÍNEA
 
   // 📏 calcular tiempo total FINAL
   const minutos = Math.floor(tiempoTotal / 60);
@@ -272,18 +273,28 @@ function pasarSiguientePregunta() {
 }
 
 function guardarResultado() {
+
+  const correctas = puntaje;
+  const incorrectas = preguntas.length - puntaje;
+
+  const minutos = Math.floor(tiempoTotal / 60);
+  const segundos = tiempoTotal % 60;
+
   const nuevoResultado = {
     nombre: nombreEstudiante,
-    grado: gradoEstudiante,
-    puntaje: puntaje,
-    total: preguntas.length,
+    puntaje: `'${puntaje}/${preguntas.length}`,
+    correctas: correctas,
+    incorrectas: incorrectas,
+    tiempo: `${minutos} min ${segundos} s`,
     fecha: new Date().toLocaleString()
   };
 
   let resultados = JSON.parse(localStorage.getItem("resultadosQuiz")) || [];
   resultados.push(nuevoResultado);
+
   localStorage.setItem("resultadosQuiz", JSON.stringify(resultados));
 }
+
 
 function verResultadosGuardados() {
   const resultados = JSON.parse(localStorage.getItem("resultadosQuiz")) || [];
@@ -314,9 +325,38 @@ function mostrarHistorial() {
 
 
 function exportarResultados() {
-  window.print();
-}
 
+  const claveIngresada = prompt("Ingrese la clave del profesor:");
+
+  if (claveIngresada !=="1234") {
+    alert("Clave incorrecta. Acceso denegado.");
+    return;
+  }
+
+  const resultados = JSON.parse(localStorage.getItem("resultadosQuiz")) || [];
+
+  if (resultados.length === 0) {
+    alert("No hay resultados para exportar.");
+    return;
+  }
+
+  let csv = "Nombre;Puntaje;Correctas;Incorrectas;Tiempo;Fecha\n";
+
+  resultados.forEach(r => {
+    csv += `${r.nombre};${r.puntaje};${r.correctas};${r.incorrectas};${r.tiempo};${r.fecha}\n`;
+  });
+
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+
+  const link = document.createElement("a");
+  link.setAttribute("href", url);
+  link.setAttribute("download", "Resultados_ICFES.csv");
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
 
 
