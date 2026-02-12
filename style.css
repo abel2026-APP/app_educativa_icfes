@@ -10,12 +10,14 @@ body {
 
 .contenedor {
     background-color: white;
-    padding: 30px;
-    width: 420px;
+    padding: 20px;
+    width: 95%;
+    max-width: 420px;
     text-align: center;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
 
 h1 {
     color: #1a73e8;
@@ -39,3 +41,10 @@ input {
   }
 }
 
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
